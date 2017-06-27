@@ -136,10 +136,3 @@ INNER JOIN [Dimension].[Stock Item] AS [si]
 	ON [fo].[Stock Item Key] = [si].[Stock Item Key]
 WHERE   [fo].[Quantity] = 361;
 
--- Reset early build trace flags
--- Cleanup
-EXEC [ResetDemo];
-GO
-
-ALTER DATABASE SCOPED CONFIGURATION CLEAR PROCEDURE_CACHE;
-GO
