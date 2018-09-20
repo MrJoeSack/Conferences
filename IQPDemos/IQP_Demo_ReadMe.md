@@ -1,8 +1,8 @@
 Here are the instructions to prepare for demonstrating Intelligent QP's latest round of features:
 
-1) Download WideWorldImportersDW-Full.bak from aka.ms/wwidwbak 
+1) Download WideWorldImportersDW-Full.bak from https://aka.ms/wwidwbak 
 
-2) Enlarge the database using the following script: aka.ms/wwidwenlarge 
+2) Enlarge the database using the following script: https://aka.ms/wwidwenlarge 
 
 3) Stay tuned for the * full * demo script against this enlarged database! Will be updated here...
 
