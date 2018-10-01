@@ -15,4 +15,4 @@ Email me at joe.sack @microsoft.com if questions in the meantime.
 
 Thanks,
 
-Joe Sack, Principal Program Manager, Microsoft
+Joe Sack, Principal Program Manager - Query Processing, Microsoft
