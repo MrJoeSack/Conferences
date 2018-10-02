@@ -3,7 +3,7 @@
 -- bigger - so you can see more impactful 
 -- Intelligent QP demonstrations (aka.ms/iqp)
 --
--- Script last updated 9/20/2018.
+-- Script last updated 10/02/2018
 --
 -- Database backup source: aka.ms/wwibak
 -- 
@@ -31,6 +31,12 @@ GO
 CREATE INDEX IX_Stock_Item_Key
 ON Fact.OrderHistory([Stock Item Key])
 INCLUDE(Quantity)
+WITH(DATA_COMPRESSION=PAGE);
+GO
+
+CREATE INDEX IX_OrderHistory_Quantity
+ON Fact.OrderHistory([Quantity])
+INCLUDE([Order Key])
 WITH(DATA_COMPRESSION=PAGE);
 GO
 
