@@ -7,6 +7,8 @@
 
 -- This demo is on SQL Server 2019 Public Preview and works in Azure SQL DB too
 
+-- Last revised: 10/4/2018
+
 -- Email IntelligentQP@microsoft.com for questions\feedback
 -- ******************************************************** --
 
@@ -27,7 +29,7 @@ DECLARE @Order TABLE
 INSERT @Order
 SELECT [Order Key], [Quantity]
 FROM [Fact].[OrderHistory]
-WHERE  [Quantity] > 1;
+WHERE  [Quantity] > 99;
 
 -- Look at estimated rows, speed, join algorithm
 SELECT oh.[Order Key], oh.[Order Date Key],
